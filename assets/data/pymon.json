@@ -1,0 +1,182 @@
+[
+    {
+        "id": 1,
+        "nom": "Foliane",
+        "types": ["Plante"],
+        "stats": { "pv": 45, "atq": 49, "def": 49, "vit": 45 },
+        "total": 188,
+        "evolue_en": 2,
+        "niv_evol": 16,
+        "apprentissage": {
+            "1": ["Collision", "Liane Cinglante"],
+            "5": ["Photosynthèse"],
+            "9": ["Croissance Rapide"],
+            "13": ["Feuillage Tranchant"]
+        }
+    },
+    {
+        "id": 2,
+        "nom": "Floros",
+        "types": ["Plante"],
+        "stats": { "pv": 60, "atq": 62, "def": 63, "vit": 60 },
+        "total": 245,
+        "evolue_en": 3,
+        "niv_evol": 32,
+        "apprentissage": {
+            "16": ["Spore Morphée"],
+            "20": ["Drain Végétal"],
+            "26": ["Danse des Fleurs"],
+            "30": ["Graine Sangsue"]
+        }
+    },
+    {
+        "id": 3,
+        "nom": "Floror",
+        "types": ["Plante", "Poison"],
+        "stats": { "pv": 80, "atq": 82, "def": 83, "vit": 80 },
+        "total": 325,
+        "evolue_en": null,
+        "niv_evol": null,
+        "apprentissage": {
+            "32": ["Bombe de Déchets"],
+            "38": ["Poudre Toxique"],
+            "45": ["Ouragan de Chlorophylle"],
+            "55": ["Rayon Solaire"]
+        }
+    },
+    {
+        "id": 4,
+        "nom": "Flammion",
+        "types": ["Feu"],
+        "stats": { "pv": 39, "atq": 52, "def": 43, "vit": 65 },
+        "total": 199,
+        "evolue_en": 5,
+        "niv_evol": 16,
+        "apprentissage": {
+            "1": ["Lacération", "Braise Vive"],
+            "6": ["Rugissement Ardent"],
+            "10": ["Écran de Fumée"],
+            "14": ["Croc Incendiaire"]
+        }
+    },
+    {
+        "id": 5,
+        "nom": "Flammios",
+        "types": ["Feu"],
+        "stats": { "pv": 58, "atq": 64, "def": 58, "vit": 80 },
+        "total": 260,
+        "evolue_en": 6,
+        "niv_evol": 36,
+        "apprentissage": {
+            "16": ["Spirale Ardente"],
+            "22": ["Hâte de l'Essaim"],
+            "28": ["Lance-Flammes"],
+            "33": ["Rebond Ardent"]
+        }
+    },
+    {
+        "id": 6,
+        "nom": "Flammior",
+        "types": ["Feu", "Vol"],
+        "stats": { "pv": 78, "atq": 84, "def": 78, "vit": 100 },
+        "total": 340,
+        "evolue_en": null,
+        "niv_evol": null,
+        "apprentissage": {
+            "36": ["Rafale Tranchante"],
+            "42": ["Jet de Magma"],
+            "50": ["Brasier Astral"],
+            "60": ["Surchauffe"]
+        }
+    },
+    {
+        "id": 7,
+        "nom": "Gouttout",
+        "types": ["Eau"],
+        "stats": { "pv": 44, "atq": 48, "def": 65, "vit": 43 },
+        "total": 200,
+        "evolue_en": 8,
+        "niv_evol": 16,
+        "apprentissage": {
+            "1": ["Collision", "Jet Sous Pression"],
+            "5": ["Repli Carapace"],
+            "9": ["Brouillard Épais"],
+            "12": ["Aquajet Rapide"]
+        }
+    },
+    {
+        "id": 8,
+        "nom": "Gouttos",
+        "types": ["Eau"],
+        "stats": { "pv": 59, "atq": 63, "def": 80, "vit": 58 },
+        "total": 260,
+        "evolue_en": 9,
+        "niv_evol": 36,
+        "apprentissage": {
+            "16": ["Éclat Aquatique"],
+            "23": ["Vibration d'Ailes"],
+            "29": ["Anneau Hydro"],
+            "34": ["Cascade"]
+        }
+    },
+    {
+        "id": 9,
+        "nom": "Gouttor",
+        "types": ["Eau", "Glace"],
+        "stats": { "pv": 79, "atq": 83, "def": 100, "vit": 78 },
+        "total": 340,
+        "evolue_en": null,
+        "niv_evol": null,
+        "apprentissage": {
+            "36": ["Rayon Zéro"],
+            "44": ["Grande Vague"],
+            "52": ["Torrent Brutal"],
+            "62": ["Blizzard Éternel"]
+        }
+    },
+    {
+        "id": 10,
+        "nom": "Voltion",
+        "types": ["Électrik"],
+        "stats": { "pv": 35, "atq": 55, "def": 40, "vit": 90 },
+        "total": 220,
+        "evolue_en": 11,
+        "niv_evol": 20,
+        "apprentissage": {
+            "1": ["Ruée Subite", "Décharge"],
+            "6": ["Onde de Choc"],
+            "11": ["Charge Statique"],
+            "17": ["Cage-Éclair"]
+        }
+    },
+    {
+        "id": 11,
+        "nom": "Voltios",
+        "types": ["Électrik"],
+        "stats": { "pv": 50, "atq": 70, "def": 55, "vit": 110 },
+        "total": 285,
+        "evolue_en": 12,
+        "niv_evol": 40,
+        "apprentissage": {
+            "20": ["Surtension"],
+            "26": ["Hâte de l'Essaim"],
+            "32": ["Foudre Statique"],
+            "38": ["Coup d'Jus"]
+        }
+    },
+    {
+        "id": 12,
+        "nom": "Voltior",
+        "types": ["Électrik", "Acier"],
+        "stats": { "pv": 70, "atq": 90, "def": 80, "vit": 130 },
+        "total": 370,
+        "evolue_en": null,
+        "niv_evol": null,
+        "apprentissage": {
+            "40": ["Canon Magnétique"],
+            "48": ["Lame de Chrome"],
+            "56": ["Colère du Ciel"],
+            "68": ["Éclair Final"]
+        }
+    }
+]

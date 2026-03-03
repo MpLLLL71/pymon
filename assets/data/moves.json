@@ -1,0 +1,1674 @@
+{
+    "Plante": [
+        {
+            "nom": "Liane Cinglante",
+            "puissance": 45,
+            "precision": 100,
+            "niveau": 1,
+            "effet": "dommage",
+            "description": "Fouette l'ennemi avec de fines lianes souples."
+        },
+        {
+            "nom": "Photosynthèse",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 5,
+            "effet": "soin_50",
+            "description": "Le lanceur absorbe la lumière pour restaurer 50% de ses PV."
+        },
+        {
+            "nom": "Croissance Rapide",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 8,
+            "effet": "boost_atq_1",
+            "description": "Force une poussée de sève qui augmente l'Attaque."
+        },
+        {
+            "nom": "Feuillage Tranchant",
+            "puissance": 55,
+            "precision": 95,
+            "niveau": 12,
+            "effet": "critique_haut",
+            "description": "Envoie des feuilles acérées. Forte chance de coup critique."
+        },
+        {
+            "nom": "Spore Morphée",
+            "puissance": 0,
+            "precision": 75,
+            "niveau": 15,
+            "effet": "sommeil",
+            "description": "Lâche des spores soporifiques qui endorment la cible."
+        },
+        {
+            "nom": "Racines Sangsues",
+            "puissance": 0,
+            "precision": 90,
+            "niveau": 18,
+            "effet": "vampirisme_tour",
+            "description": "Plante des racines qui volent des PV à chaque tour."
+        },
+        {
+            "nom": "Danse des Pétales",
+            "puissance": 70,
+            "precision": 100,
+            "niveau": 22,
+            "effet": "dommage",
+            "description": "Une tempête de pétales frappe violemment l'adversaire."
+        },
+        {
+            "nom": "Drain Végétal",
+            "puissance": 75,
+            "precision": 100,
+            "niveau": 28,
+            "effet": "vampirisme_50",
+            "description": "Vole l'énergie vitale. Rend 50% des dégâts infligés en PV."
+        },
+        {
+            "nom": "Bouclier de Sève",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 32,
+            "effet": "boost_def_2",
+            "description": "Durcit la peau avec de la sève. Augmente beaucoup la Défense."
+        },
+        {
+            "nom": "Canon Graine",
+            "puissance": 80,
+            "precision": 100,
+            "niveau": 36,
+            "effet": "dommage",
+            "description": "Mitraille l'ennemi avec des graines explosives."
+        },
+        {
+            "nom": "Colère Sylvestre",
+            "puissance": 90,
+            "precision": 100,
+            "niveau": 40,
+            "effet": "baisse_vit_cible_1",
+            "description": "Invoque la forêt pour piéger les pieds de l'ennemi. Réduit sa Vitesse."
+        },
+        {
+            "nom": "Ouragan de Chlorophylle",
+            "puissance": 130,
+            "precision": 90,
+            "niveau": 50,
+            "effet": "recouvrement_tour",
+            "description": "Attaque ultime. Le lanceur doit se reposer au tour suivant."
+        }
+    ],
+    "Feu": [
+        {
+            "nom": "Braise Vive",
+            "puissance": 40,
+            "precision": 100,
+            "niveau": 1,
+            "effet": "brulure_10",
+            "description": "Une petite flamme qui peut brûler l'adversaire."
+        },
+        {
+            "nom": "Rugissement Ardent",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 4,
+            "effet": "baisse_atq_cible_1",
+            "description": "Un cri terrifiant qui intimide l'ennemi et baisse son Attaque."
+        },
+        {
+            "nom": "Écran de Fumée",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 7,
+            "effet": "baisse_prec_cible_1",
+            "description": "Lâche une fumée noire qui réduit la Précision ennemie."
+        },
+        {
+            "nom": "Croc Incendiaire",
+            "puissance": 65,
+            "precision": 95,
+            "niveau": 13,
+            "effet": "peur_10",
+            "description": "Morsure brûlante qui peut apeurer la cible."
+        },
+        {
+            "nom": "Spirale Ardente",
+            "puissance": 60,
+            "precision": 100,
+            "niveau": 18,
+            "effet": "piege_feu",
+            "description": "Emprisonne l'ennemi dans un vortex de feu pendant plusieurs tours."
+        },
+        {
+            "nom": "Surchauffe Interne",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 24,
+            "effet": "boost_atq_2",
+            "description": "Augmente la température interne pour booster l'Attaque."
+        },
+        {
+            "nom": "Jet de Magma",
+            "puissance": 90,
+            "precision": 100,
+            "niveau": 30,
+            "effet": "brulure_10",
+            "description": "Projette de la roche en fusion. Peut brûler."
+        },
+        {
+            "nom": "Poing de Soufre",
+            "puissance": 75,
+            "precision": 100,
+            "niveau": 34,
+            "effet": "brulure_10",
+            "description": "Un coup de poing enflammé qui sent le soufre."
+        },
+        {
+            "nom": "Manteau de Flammes",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 38,
+            "effet": "degats_contact",
+            "description": "S'entoure de feu. Blesse ceux qui touchent le lanceur."
+        },
+        {
+            "nom": "Explosion Solaire",
+            "puissance": 100,
+            "precision": 100,
+            "niveau": 42,
+            "effet": "dommage",
+            "description": "Libère une chaleur aveuglante et destructrice."
+        },
+        {
+            "nom": "Brasier Astral",
+            "puissance": 110,
+            "precision": 85,
+            "niveau": 48,
+            "effet": "brulure_30",
+            "description": "Une fournaise venue des étoiles. Forte chance de brûlure."
+        },
+        {
+            "nom": "Nova Finale",
+            "puissance": 150,
+            "precision": 90,
+            "niveau": 55,
+            "effet": "sacrifice",
+            "description": "Le lanceur explose. Inflige d'énormes dégâts mais se met K.O."
+        }
+    ],
+    "Eau": [
+        {
+            "nom": "Jet Sous Pression",
+            "puissance": 40,
+            "precision": 100,
+            "niveau": 1,
+            "effet": "dommage",
+            "description": "Projette un filet d'eau rapide."
+        },
+        {
+            "nom": "Repli Carapace",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 5,
+            "effet": "boost_def_1",
+            "description": "Se cache sous une protection pour augmenter la Défense."
+        },
+        {
+            "nom": "Brouillard Épais",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 9,
+            "effet": "baisse_prec_cible_1",
+            "description": "Crée une brume qui trouble la vue de l'adversaire."
+        },
+        {
+            "nom": "Aquajet Rapide",
+            "puissance": 40,
+            "precision": 100,
+            "niveau": 12,
+            "effet": "priorite_1",
+            "description": "Fonce sur l'ennemi. Frappe toujours en premier."
+        },
+        {
+            "nom": "Éclat Aquatique",
+            "puissance": 60,
+            "precision": 100,
+            "niveau": 16,
+            "effet": "confusion_10",
+            "description": "Une bulle d'eau qui éclate. Peut rendre confus."
+        },
+        {
+            "nom": "Anneau de Soins",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 20,
+            "effet": "soin_regen",
+            "description": "S'entoure d'eau purificatrice qui soigne un peu à chaque tour."
+        },
+        {
+            "nom": "Lame d'Eau",
+            "puissance": 70,
+            "precision": 100,
+            "niveau": 25,
+            "effet": "critique_haut",
+            "description": "Tranche avec de l'eau sous haute pression. Souvent critique."
+        },
+        {
+            "nom": "Grande Vague",
+            "puissance": 90,
+            "precision": 100,
+            "niveau": 32,
+            "effet": "dommage",
+            "description": "Invoque une vague géante qui submerge le terrain."
+        },
+        {
+            "nom": "Torrent Brutal",
+            "puissance": 110,
+            "precision": 80,
+            "niveau": 40,
+            "effet": "baisse_atq_cible_1",
+            "description": "Un déluge si puissant qu'il fatigue l'ennemi et baisse son Attaque."
+        },
+        {
+            "nom": "Mur de Glace",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 44,
+            "effet": "protection",
+            "description": "Dresse une barrière gelée pour bloquer la prochaine attaque."
+        },
+        {
+            "nom": "Siphon Géant",
+            "puissance": 95,
+            "precision": 100,
+            "niveau": 48,
+            "effet": "dommage",
+            "description": "Aspire l'ennemi dans un tourbillon destructeur."
+        },
+        {
+            "nom": "Abysse Liquide",
+            "puissance": 120,
+            "precision": 85,
+            "niveau": 55,
+            "effet": "dommage",
+            "description": "Écrase la cible sous la pression des profondeurs."
+        }
+    ],
+    "Électrik": [
+        {
+            "nom": "Décharge",
+            "puissance": 40,
+            "precision": 100,
+            "niveau": 1,
+            "effet": "paralysie_10",
+            "description": "Une petite étincelle. Peut paralyser."
+        },
+        {
+            "nom": "Onde de Choc",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 6,
+            "effet": "paralysie",
+            "description": "Envoie un courant qui paralyse à coup sûr l'adversaire."
+        },
+        {
+            "nom": "Charge Statique",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 10,
+            "effet": "boost_vit_2",
+            "description": "Électrise ses muscles pour augmenter beaucoup sa Vitesse."
+        },
+        {
+            "nom": "Étincelle de Choc",
+            "puissance": 65,
+            "precision": 100,
+            "niveau": 14,
+            "effet": "paralysie_30",
+            "description": "Une attaque électrique rapide. Bonne chance de paralyser."
+        },
+        {
+            "nom": "Surtension",
+            "puissance": 80,
+            "precision": 100,
+            "niveau": 22,
+            "effet": "paralysie_10",
+            "description": "Libère une forte charge électrique."
+        },
+        {
+            "nom": "Éclair Rapide",
+            "puissance": 50,
+            "precision": 100,
+            "niveau": 26,
+            "effet": "priorite_1",
+            "description": "Frappe comme l'éclair. Toujours en premier."
+        },
+        {
+            "nom": "Court-Circuit",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 30,
+            "effet": "baisse_def_cible_2",
+            "description": "Surcharge les défenses ennemies pour les affaiblir."
+        },
+        {
+            "nom": "Foudre Statique",
+            "puissance": 90,
+            "precision": 100,
+            "niveau": 36,
+            "effet": "paralysie_10",
+            "description": "Un puissant éclair tombe sur la cible."
+        },
+        {
+            "nom": "Bouclier Voltaïque",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 40,
+            "effet": "paralysie_contact",
+            "description": "Électrise son corps. Paralysie garantie en cas de contact physique."
+        },
+        {
+            "nom": "Électro-Bombardement",
+            "puissance": 100,
+            "precision": 95,
+            "niveau": 45,
+            "effet": "recul_33",
+            "description": "Une charge suicidaire. Inflige de gros dégâts mais blesse le lanceur."
+        },
+        {
+            "nom": "Colère du Ciel",
+            "puissance": 110,
+            "precision": 70,
+            "niveau": 50,
+            "effet": "paralysie_30",
+            "description": "Invoque la foudre. Puissant mais peu précis."
+        },
+        {
+            "nom": "Impulsion Finale",
+            "puissance": 140,
+            "precision": 100,
+            "niveau": 60,
+            "effet": "baisse_atq_spe_2",
+            "description": "Décharge toute son énergie. Réduit fortement l'Attaque Spéciale du lanceur."
+        }
+    ],
+    "Normal": [
+        {
+            "nom": "Collision",
+            "puissance": 40,
+            "precision": 100,
+            "niveau": 1,
+            "effet": "dommage",
+            "description": "Le lanceur fonce sur la cible tête baissée."
+        },
+        {
+            "nom": "Lacération",
+            "puissance": 40,
+            "precision": 100,
+            "niveau": 1,
+            "effet": "dommage",
+            "description": "Donne un coup de griffe ou de croc basique."
+        },
+        {
+            "nom": "Cri Strident",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 4,
+            "effet": "baisse_def_cible_1",
+            "description": "Un cri perçant qui baisse la Défense ennemie."
+        },
+        {
+            "nom": "Ruée Subite",
+            "puissance": 40,
+            "precision": 100,
+            "niveau": 8,
+            "effet": "priorite_1",
+            "description": "Une attaque si rapide qu'elle frappe en premier."
+        },
+        {
+            "nom": "Jet de Sable",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 10,
+            "effet": "baisse_prec_cible_1",
+            "description": "Lance du sable au visage pour réduire la Précision."
+        },
+        {
+            "nom": "Regard Médusé",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 14,
+            "effet": "peur_30",
+            "description": "Fixe l'ennemi dans les yeux pour essayer de l'apeurer."
+        },
+        {
+            "nom": "Éclat d'Énergie",
+            "puissance": 70,
+            "precision": 100,
+            "niveau": 20,
+            "effet": "dommage",
+            "description": "Libère une onde de choc neutre."
+        },
+        {
+            "nom": "Force Brute",
+            "puissance": 85,
+            "precision": 100,
+            "niveau": 28,
+            "effet": "dommage",
+            "description": "Un coup d'une puissance physique pure."
+        },
+        {
+            "nom": "Méditation",
+            "puissance": 0,
+            "precision": 100,
+            "niveau": 34,
+            "effet": "boost_atq_1_def_1",
+            "description": "Se concentre pour augmenter l'Attaque et la Défense."
+        },
+        {
+            "nom": "Coup de Boule",
+            "puissance": 70,
+            "precision": 100,
+            "niveau": 38,
+            "effet": "peur_30",
+            "description": "Un choc crânien violent qui peut faire peur."
+        },
+        {
+            "nom": "Dernier Recours",
+            "puissance": 120,
+            "precision": 100,
+            "niveau": 45,
+            "effet": "recul_33",
+            "description": "Une charge désespérée qui blesse aussi le lanceur."
+        },
+        {
+            "nom": "Faisceau Final",
+            "puissance": 150,
+            "precision": 90,
+            "niveau": 55,
+            "effet": "immobilisation_tour",
+            "description": "Rayon surpuissant. Demande un tour de recharge."
+        },
+        {
+            "Acier": [
+                {
+                    "nom": "Lame de Chrome",
+                    "puissance": 50,
+                    "precision": 95,
+                    "niveau": 1,
+                    "effet": "boost_def_10",
+                    "description": "Tranche avec un membre métallisé. Peut augmenter la Défense."
+                },
+                {
+                    "nom": "Affûtage",
+                    "puissance": 0,
+                    "precision": 100,
+                    "niveau": 5,
+                    "effet": "boost_atq_1",
+                    "description": "Aiguise son corps pour augmenter les dégâts physiques."
+                },
+                {
+                    "nom": "Mur de Plomb",
+                    "puissance": 0,
+                    "precision": 100,
+                    "niveau": 10,
+                    "effet": "boost_def_2",
+                    "description": "Rend son corps aussi dur que l'acier. Augmente beaucoup la Défense."
+                },
+                {
+                    "nom": "Pilonnage",
+                    "puissance": 60,
+                    "precision": 100,
+                    "niveau": 16,
+                    "effet": "peur_30",
+                    "description": "Écrase l'adversaire sous un poids énorme. Peut apeurer."
+                },
+                {
+                    "nom": "Griffe Alliage",
+                    "puissance": 70,
+                    "precision": 100,
+                    "niveau": 22,
+                    "effet": "boost_atq_10",
+                    "description": "Une attaque de griffes renforcées par du métal."
+                },
+                {
+                    "nom": "Gyro-Impact",
+                    "puissance": 0,
+                    "precision": 100,
+                    "niveau": 28,
+                    "effet": "degats_poids",
+                    "description": "Inflige des dégâts basés sur la différence de poids."
+                },
+                {
+                    "nom": "Virole de Fer",
+                    "puissance": 80,
+                    "precision": 90,
+                    "niveau": 34,
+                    "effet": "dommage",
+                    "description": "Le lanceur tournoie violemment pour frapper la cible."
+                },
+                {
+                    "nom": "Reflet Métallique",
+                    "puissance": 0,
+                    "precision": 100,
+                    "niveau": 38,
+                    "effet": "miroir_degats",
+                    "description": "Renvoie une partie des dégâts physiques reçus ce tour."
+                },
+                {
+                    "nom": "Canon Magnétique",
+                    "puissance": 80,
+                    "precision": 100,
+                    "niveau": 42,
+                    "effet": "paralysie_10",
+                    "description": "Tire un projectile de métal chargé d'électricité."
+                },
+                {
+                    "nom": "Perce-Blindage",
+                    "puissance": 90,
+                    "precision": 100,
+                    "niveau": 46,
+                    "effet": "ignore_defense",
+                    "description": "Une pointe d'acier qui ignore les augmentations de défense ennemie."
+                },
+                {
+                    "nom": "Éclat d'Acier",
+                    "puissance": 100,
+                    "precision": 95,
+                    "niveau": 52,
+                    "effet": "baisse_def_cible_1",
+                    "description": "Une explosion de limaille d'acier qui raye l'armure ennemie."
+                },
+                {
+                    "nom": "Météore Pesant",
+                    "puissance": 130,
+                    "precision": 90,
+                    "niveau": 60,
+                    "effet": "baisse_atq_2",
+                    "description": "Une frappe titanesque qui épuise le lanceur après l'impact."
+                }
+            ],
+            "Dragon": [
+                {
+                    "nom": "Souffle Ancestral",
+                    "puissance": 40,
+                    "precision": 100,
+                    "niveau": 1,
+                    "effet": "paralysie_10",
+                    "description": "Un souffle d'énergie mystique qui peut paralyser."
+                },
+                {
+                    "nom": "Draco-Griffe",
+                    "puissance": 60,
+                    "precision": 100,
+                    "niveau": 10,
+                    "effet": "dommage",
+                    "description": "Lacère l'ennemi avec des griffes imprégnées de mana."
+                },
+                {
+                    "nom": "Cri Draconique",
+                    "puissance": 0,
+                    "precision": 100,
+                    "niveau": 15,
+                    "effet": "baisse_atq_def_1",
+                    "description": "Un rugissement d'un autre âge qui affaiblit l'ennemi."
+                },
+                {
+                    "nom": "Danse de l'Éveil",
+                    "puissance": 0,
+                    "precision": 100,
+                    "niveau": 20,
+                    "effet": "boost_atq_vit_1",
+                    "description": "Une danse rituelle qui booste l'Attaque et la Vitesse."
+                },
+                {
+                    "nom": "Queue-Fouet",
+                    "puissance": 70,
+                    "precision": 100,
+                    "niveau": 25,
+                    "effet": "dommage",
+                    "description": "Frappe violemment avec une queue couverte d'écailles."
+                },
+                {
+                    "nom": "Fureur Antique",
+                    "puissance": 90,
+                    "precision": 100,
+                    "niveau": 32,
+                    "effet": "dommage_3_tours",
+                    "description": "Le lanceur devient fou de rage pendant 3 tours puis devient confus."
+                },
+                {
+                    "nom": "Onde de Mana",
+                    "puissance": 85,
+                    "precision": 100,
+                    "niveau": 38,
+                    "effet": "paralysie_10",
+                    "description": "Libère une onde de choc draconique pure."
+                },
+                {
+                    "nom": "Plongée Astrale",
+                    "puissance": 100,
+                    "precision": 95,
+                    "niveau": 42,
+                    "effet": "esquive_1_tour",
+                    "description": "S'envole au premier tour et frappe au second."
+                },
+                {
+                    "nom": "Regard de l'Alpha",
+                    "puissance": 0,
+                    "precision": 90,
+                    "niveau": 46,
+                    "effet": "peur",
+                    "description": "Terrorise la cible avec un regard ancestral puissant."
+                },
+                {
+                    "nom": "Draco-Météore",
+                    "puissance": 130,
+                    "precision": 90,
+                    "niveau": 52,
+                    "effet": "baisse_atq_spe_2",
+                    "description": "Invoque des comètes sacrées. Réduit fortement la puissance magique du lanceur."
+                },
+                {
+                    "nom": "Outrage Éternel",
+                    "puissance": 120,
+                    "precision": 100,
+                    "niveau": 58,
+                    "effet": "recul_25",
+                    "description": "Une charge dévastatrice qui blesse aussi le lanceur."
+                },
+                {
+                    "nom": "Jugement Final",
+                    "puissance": 150,
+                    "precision": 90,
+                    "niveau": 65,
+                    "effet": "immobilisation_tour",
+                    "description": "L'attaque la plus puissante des dragons. Demande un tour de repos."
+                }
+            ],
+            "Fée": [
+                {
+                    "nom": "Éclat Féerique",
+                    "puissance": 40,
+                    "precision": 100,
+                    "niveau": 1,
+                    "effet": "baisse_atq_10",
+                    "description": "Une poussière brillante qui peut réduire l'Attaque adverse."
+                },
+                {
+                    "nom": "Charme",
+                    "puissance": 0,
+                    "precision": 100,
+                    "niveau": 6,
+                    "effet": "baisse_atq_cible_2",
+                    "description": "Une attitude mignonne qui réduit drastiquement l'Attaque ennemie."
+                },
+                {
+                    "nom": "Douce Mélodie",
+                    "puissance": 0,
+                    "precision": 100,
+                    "niveau": 12,
+                    "effet": "sommeil_70",
+                    "description": "Un chant apaisant qui peut endormir la cible."
+                },
+                {
+                    "nom": "Vague de Nacre",
+                    "puissance": 60,
+                    "precision": 100,
+                    "niveau": 18,
+                    "effet": "confusion_10",
+                    "description": "Une onde lumineuse qui trouble l'esprit."
+                },
+                {
+                    "nom": "Vœu Étoilé",
+                    "puissance": 0,
+                    "precision": 100,
+                    "niveau": 24,
+                    "effet": "soin_prochain_tour",
+                    "description": "Fait un vœu qui restaure des PV au tour suivant."
+                },
+                {
+                    "nom": "Rayon Lunaire",
+                    "puissance": 80,
+                    "precision": 100,
+                    "niveau": 30,
+                    "effet": "soin_si_soleil",
+                    "description": "Utilise l'énergie de la lune pour frapper ou se soigner."
+                },
+                {
+                    "nom": "Brume Onirique",
+                    "puissance": 0,
+                    "precision": 100,
+                    "niveau": 35,
+                    "effet": "baisse_atq_spe_cible_2",
+                    "description": "Une brume rose qui affaiblit les pouvoirs magiques adverses."
+                },
+                {
+                    "nom": "Câlin PyMon",
+                    "puissance": 90,
+                    "precision": 100,
+                    "niveau": 40,
+                    "effet": "baisse_atq_10",
+                    "description": "S'approche pour un câlin qui finit en attaque surprise."
+                },
+                {
+                    "nom": "Aura de Cristal",
+                    "puissance": 0,
+                    "precision": 100,
+                    "niveau": 45,
+                    "effet": "protection_equipe",
+                    "description": "Protège l'équipe contre les baisses de statistiques."
+                },
+                {
+                    "nom": "Pouvoir de l'Harmonie",
+                    "puissance": 95,
+                    "precision": 100,
+                    "niveau": 50,
+                    "effet": "baisse_atq_spe_10",
+                    "description": "Déchaîne une énergie pure et bienveillante."
+                },
+                {
+                    "nom": "Explosion de Paillettes",
+                    "puissance": 110,
+                    "precision": 85,
+                    "niveau": 55,
+                    "effet": "confusion_30",
+                    "description": "Une explosion de lumière qui désoriente totalement la cible."
+                },
+                {
+                    "nom": "Destinée Radieuse",
+                    "puissance": 130,
+                    "precision": 95,
+                    "niveau": 62,
+                    "effet": "baisse_atq_spe_2",
+                    "description": "Une lumière sacrée qui consume les forces magiques du lanceur."
+                }
+            ],
+            "Glace": [
+                {
+                    "nom": "Brume Givrée",
+                    "puissance": 40,
+                    "precision": 100,
+                    "niveau": 1,
+                    "effet": "gel_10",
+                    "description": "Un vent froid qui peut geler l'adversaire."
+                },
+                {
+                    "nom": "Vent Polaire",
+                    "puissance": 55,
+                    "precision": 95,
+                    "niveau": 8,
+                    "effet": "baisse_vit_cible_1",
+                    "description": "Un courant d'air glacé qui ralentit la cible."
+                },
+                {
+                    "nom": "Armure de Givre",
+                    "puissance": 0,
+                    "precision": 100,
+                    "niveau": 12,
+                    "effet": "boost_def_1",
+                    "description": "S'enveloppe d'une couche de glace protectrice."
+                },
+                {
+                    "nom": "Éclat de Glace",
+                    "puissance": 40,
+                    "precision": 100,
+                    "niveau": 16,
+                    "effet": "priorite_1",
+                    "description": "Lance des morceaux de glace à une vitesse fulgurante."
+                },
+                {
+                    "nom": "Crocs Gelés",
+                    "puissance": 65,
+                    "precision": 95,
+                    "niveau": 22,
+                    "effet": "peur_gel_10",
+                    "description": "Une morsure qui peut geler ou effrayer."
+                },
+                {
+                    "nom": "Voile Neigeux",
+                    "puissance": 0,
+                    "precision": 100,
+                    "niveau": 26,
+                    "effet": "boost_esquive_1",
+                    "description": "Se cache derrière des flocons pour augmenter son esquive."
+                },
+                {
+                    "nom": "Poing Polaire",
+                    "puissance": 75,
+                    "precision": 100,
+                    "niveau": 32,
+                    "effet": "gel_10",
+                    "description": "Un coup de poing à une température proche du zéro absolu."
+                },
+                {
+                    "nom": " Stalactite Tombante",
+                    "puissance": 85,
+                    "precision": 90,
+                    "niveau": 38,
+                    "effet": "peur_30",
+                    "description": "Fait tomber des pics de glace du plafond."
+                },
+                {
+                    "nom": "Rayon Zéro",
+                    "puissance": 90,
+                    "precision": 100,
+                    "niveau": 44,
+                    "effet": "gel_10",
+                    "description": "Un faisceau cryogénique surpuissant."
+                },
+                {
+                    "nom": "Blizzard Éternel",
+                    "puissance": 110,
+                    "precision": 70,
+                    "niveau": 50,
+                    "effet": "gel_10",
+                    "description": "Une tempête de neige massive. Peu précis mais redoutable."
+                },
+                {
+                    "nom": "Abysse Glacé",
+                    "puissance": 0,
+                    "precision": 30,
+                    "niveau": 55,
+                    "effet": "ko_immediat",
+                    "description": "Tente d'enfermer l'ennemi dans un bloc de glace éternel."
+                },
+                {
+                    "nom": "Zéro Absolu",
+                    "puissance": 140,
+                    "precision": 100,
+                    "niveau": 60,
+                    "effet": "degats_recul",
+                    "description": "Inflige des dégâts massifs mais le lanceur gèle sur place (immobilisé)."
+                },
+                {
+                    "Insecte": [
+                        {
+                            "nom": "Sécrétion Gluante",
+                            "puissance": 0,
+                            "precision": 100,
+                            "niveau": 1,
+                            "effet": "baisse_vit_cible_2",
+                            "description": "Entoure l'ennemi de fil pour réduire fortement sa Vitesse."
+                        },
+                        {
+                            "nom": "Morsure de Mandibule",
+                            "puissance": 40,
+                            "precision": 100,
+                            "niveau": 5,
+                            "effet": "peur_10",
+                            "description": "Une morsure rapide qui peut apeurer la cible."
+                        },
+                        {
+                            "nom": "Hâte de l'Essaim",
+                            "puissance": 0,
+                            "precision": 100,
+                            "niveau": 9,
+                            "effet": "boost_vit_2",
+                            "description": "Le lanceur s'agite frénétiquement pour doubler sa Vitesse."
+                        },
+                        {
+                            "nom": "Dard de Soie",
+                            "puissance": 50,
+                            "precision": 100,
+                            "niveau": 14,
+                            "effet": "baisse_vit_cible_1",
+                            "description": "Lance un dard de soie durcie qui ralentit l'ennemi."
+                        },
+                        {
+                            "nom": "Vibration d'Ailes",
+                            "puissance": 60,
+                            "precision": 100,
+                            "niveau": 18,
+                            "effet": "confusion_10",
+                            "description": "Produit un son aigu qui peut désorienter la cible."
+                        },
+                        {
+                            "nom": "Poudre Irritante",
+                            "puissance": 0,
+                            "precision": 75,
+                            "niveau": 22,
+                            "effet": "paralysie",
+                            "description": "Lâche des écailles d'ailes qui paralysent l'adversaire."
+                        },
+                        {
+                            "nom": "Taille-Vigne",
+                            "puissance": 70,
+                            "precision": 100,
+                            "niveau": 26,
+                            "effet": "critique_haut",
+                            "description": "Utilise ses membres tranchants. Taux de critique élevé."
+                        },
+                        {
+                            "nom": "Sangsu-Sangsue",
+                            "puissance": 20,
+                            "precision": 100,
+                            "niveau": 30,
+                            "effet": "vampirisme_100",
+                            "description": "Aspire la vie de l'ennemi. Rend au lanceur tous les dégâts infligés."
+                        },
+                        {
+                            "nom": "Signal Lumineux",
+                            "puissance": 75,
+                            "precision": 100,
+                            "niveau": 35,
+                            "effet": "confusion_10",
+                            "description": "Un flash étrange qui peut rendre confus."
+                        },
+                        {
+                            "nom": "Bourdonnement Furieux",
+                            "puissance": 90,
+                            "precision": 100,
+                            "niveau": 42,
+                            "effet": "baisse_def_spe_10",
+                            "description": "Un vacarme insupportable qui peut baisser la défense magique."
+                        },
+                        {
+                            "nom": "Morsure Fatale",
+                            "puissance": 80,
+                            "precision": 100,
+                            "niveau": 48,
+                            "effet": "poison",
+                            "description": "Une attaque de mandibules qui empoisonne la cible."
+                        },
+                        {
+                            "nom": "Mégacorne d'Acier",
+                            "puissance": 120,
+                            "precision": 85,
+                            "niveau": 55,
+                            "effet": "dommage",
+                            "description": "Une charge dévastatrice avec une corne surdéveloppée."
+                        }
+                    ],
+                    "Poison": [
+                        {
+                            "nom": "Pointe Toxique",
+                            "puissance": 15,
+                            "precision": 100,
+                            "niveau": 1,
+                            "effet": "poison_30",
+                            "description": "Pique l'ennemi. Forte chance d'empoisonnement."
+                        },
+                        {
+                            "nom": "Nuage de Venin",
+                            "puissance": 0,
+                            "precision": 90,
+                            "niveau": 6,
+                            "effet": "poison",
+                            "description": "Libère un gaz toxique qui empoisonne à coup sûr."
+                        },
+                        {
+                            "nom": "Acide Corrosif",
+                            "puissance": 40,
+                            "precision": 100,
+                            "niveau": 10,
+                            "effet": "baisse_def_10",
+                            "description": "Crache un liquide qui ronge la défense ennemie."
+                        },
+                        {
+                            "nom": "Dard-Venin Rapide",
+                            "puissance": 50,
+                            "precision": 100,
+                            "niveau": 15,
+                            "effet": "poison_10",
+                            "description": "Une attaque rapide chargée de toxines."
+                        },
+                        {
+                            "nom": "Bain de Toxine",
+                            "puissance": 0,
+                            "precision": 100,
+                            "niveau": 20,
+                            "effet": "boost_atq_spe_2",
+                            "description": "Se gorge de poison pour augmenter sa puissance magique."
+                        },
+                        {
+                            "nom": "Choc Toxique",
+                            "puissance": 65,
+                            "precision": 100,
+                            "niveau": 25,
+                            "effet": "double_si_empoisonne",
+                            "description": "Inflige le double de dégâts si la cible est empoisonnée."
+                        },
+                        {
+                            "nom": "Croc de Vipère",
+                            "puissance": 75,
+                            "precision": 95,
+                            "niveau": 30,
+                            "effet": "poison_30",
+                            "description": "Morsure venimeuse profonde."
+                        },
+                        {
+                            "nom": "Bombe de Déchets",
+                            "puissance": 90,
+                            "precision": 100,
+                            "niveau": 36,
+                            "effet": "poison_30",
+                            "description": "Lance des immondices toxiques sur l'adversaire."
+                        },
+                        {
+                            "nom": "Brume de Soufre",
+                            "puissance": 0,
+                            "precision": 100,
+                            "niveau": 40,
+                            "effet": "baisse_prec_cible_2",
+                            "description": "Un gaz irritant qui empêche l'ennemi de viser correctement."
+                        },
+                        {
+                            "nom": "Direct Toxique",
+                            "puissance": 80,
+                            "precision": 100,
+                            "niveau": 45,
+                            "effet": "poison_30",
+                            "description": "Un coup de poing imprégné d'un venin puissant."
+                        },
+                        {
+                            "nom": "Gaz Neurotoxique",
+                            "puissance": 0,
+                            "precision": 80,
+                            "niveau": 50,
+                            "effet": "confusion_poison",
+                            "description": "Rend la cible confuse et l'empoisonne."
+                        },
+                        {
+                            "nom": "Vague de Fange",
+                            "puissance": 95,
+                            "precision": 100,
+                            "niveau": 55,
+                            "effet": "poison_10",
+                            "description": "Un raz-de-marée de boue toxique qui submerge tout."
+                        }
+                    ],
+                    "Psy": [
+                        {
+                            "nom": "Onde Mentale",
+                            "puissance": 40,
+                            "precision": 100,
+                            "niveau": 1,
+                            "effet": "confusion_10",
+                            "description": "Une légère décharge psychique."
+                        },
+                        {
+                            "nom": "Méditation Zen",
+                            "puissance": 0,
+                            "precision": 100,
+                            "niveau": 5,
+                            "effet": "boost_atq_spe_1",
+                            "description": "Calme l'esprit pour augmenter la puissance magique."
+                        },
+                        {
+                            "nom": "Télékinésie",
+                            "puissance": 0,
+                            "precision": 100,
+                            "niveau": 10,
+                            "effet": "baisse_esquive_cible_2",
+                            "description": "Soulève l'ennemi pour qu'il ne puisse plus esquiver."
+                        },
+                        {
+                            "nom": "Choc Mental",
+                            "puissance": 50,
+                            "precision": 100,
+                            "niveau": 15,
+                            "effet": "confusion_10",
+                            "description": "Une attaque psychique basique mais efficace."
+                        },
+                        {
+                            "nom": "Mur de Force",
+                            "puissance": 0,
+                            "precision": 100,
+                            "niveau": 20,
+                            "effet": "protection_physique",
+                            "description": "Crée une barrière qui réduit les dégâts physiques reçus."
+                        },
+                        {
+                            "nom": "Miroir Magique",
+                            "puissance": 0,
+                            "precision": 100,
+                            "niveau": 24,
+                            "effet": "protection_speciale",
+                            "description": "Crée une barrière qui réduit les dégâts magiques reçus."
+                        },
+                        {
+                            "nom": "Échange de Flux",
+                            "puissance": 0,
+                            "precision": 100,
+                            "niveau": 30,
+                            "effet": "echange_stats",
+                            "description": "Échange les modifications de statistiques avec l'adversaire."
+                        },
+                        {
+                            "nom": "Psyko-Frappe",
+                            "puissance": 80,
+                            "precision": 100,
+                            "niveau": 36,
+                            "effet": "baisse_def_cible_1",
+                            "description": "Matérialise l'énergie psychique pour briser la défense."
+                        },
+                        {
+                            "nom": "Hypnose Profonde",
+                            "puissance": 0,
+                            "precision": 60,
+                            "niveau": 40,
+                            "effet": "sommeil",
+                            "description": "Endort la cible avec des ondes hypnotiques."
+                        },
+                        {
+                            "nom": "Surcharge Cérébrale",
+                            "puissance": 90,
+                            "precision": 100,
+                            "niveau": 46,
+                            "effet": "confusion_10",
+                            "description": "Provoque une migraine intense chez l'adversaire."
+                        },
+                        {
+                            "nom": "Amnésie Forcée",
+                            "puissance": 0,
+                            "precision": 100,
+                            "niveau": 52,
+                            "effet": "boost_def_spe_2",
+                            "description": "Oublie la douleur pour augmenter énormément la défense magique."
+                        },
+                        {
+                            "nom": "Explosion de Psyché",
+                            "puissance": 120,
+                            "precision": 90,
+                            "niveau": 60,
+                            "effet": "baisse_def_cible_1",
+                            "description": "Déchaîne toute la puissance du cerveau en une onde de choc."
+                        }
+                    ],
+                    "Roche": [
+                        {
+                            "nom": "Jet de Pierres",
+                            "puissance": 40,
+                            "precision": 100,
+                            "niveau": 1,
+                            "effet": "dommage",
+                            "description": "Lance de petits cailloux sur la cible."
+                        },
+                        {
+                            "nom": "Durcissement",
+                            "puissance": 0,
+                            "precision": 100,
+                            "niveau": 5,
+                            "effet": "boost_def_1",
+                            "description": "Contracte ses muscles de pierre pour augmenter sa Défense."
+                        },
+                        {
+                            "nom": "Piège de Roc",
+                            "puissance": 0,
+                            "precision": 100,
+                            "niveau": 10,
+                            "effet": "degats_entree",
+                            "description": "Dispose des rochers pointus sur le terrain adverse."
+                        },
+                        {
+                            "nom": "Tombe-Roc",
+                            "puissance": 60,
+                            "precision": 95,
+                            "niveau": 15,
+                            "effet": "baisse_vit_cible_1",
+                            "description": "Fait tomber des rochers qui ralentissent l'ennemi."
+                        },
+                        {
+                            "nom": "Éboulement",
+                            "puissance": 75,
+                            "precision": 90,
+                            "niveau": 22,
+                            "effet": "peur_30",
+                            "description": "Une avalanche de pierres qui peut apeurer l'adversaire."
+                        },
+                        {
+                            "nom": "Tempête de Sable",
+                            "puissance": 0,
+                            "precision": 100,
+                            "niveau": 28,
+                            "effet": "climat_sable",
+                            "description": "Invoque une tempête qui blesse chaque tour (sauf types Roche/Acier)."
+                        },
+                        {
+                            "nom": "Boule de Roc",
+                            "puissance": 25,
+                            "precision": 90,
+                            "niveau": 32,
+                            "effet": "frappe_multi_5",
+                            "description": "Lance 2 à 5 rochers d'affilée."
+                        },
+                        {
+                            "nom": "Polissage",
+                            "puissance": 0,
+                            "precision": 100,
+                            "niveau": 36,
+                            "effet": "boost_vit_2",
+                            "description": "Lisse son corps pour réduire la friction et doubler sa Vitesse."
+                        },
+                        {
+                            "nom": "Lame de Pierre",
+                            "puissance": 100,
+                            "precision": 80,
+                            "niveau": 42,
+                            "effet": "critique_haut",
+                            "description": "Invoque des piliers de roche tranchants. Souvent critique."
+                        },
+                        {
+                            "nom": "Fracas Sismique",
+                            "puissance": 120,
+                            "precision": 85,
+                            "niveau": 48,
+                            "effet": "recul_33",
+                            "description": "Une charge rocheuse brutale qui blesse aussi le lanceur."
+                        },
+                        {
+                            "nom": "Forteresse de Granite",
+                            "puissance": 0,
+                            "precision": 100,
+                            "niveau": 54,
+                            "effet": "boost_def_3",
+                            "description": "Se transforme en bloc de granit indestructible. Défense au maximum."
+                        },
+                        {
+                            "nom": "Écrasement Terrestre",
+                            "puissance": 150,
+                            "precision": 90,
+                            "niveau": 62,
+                            "effet": "immobilisation_tour",
+                            "description": "Écrase tout sur son passage. Demande un tour de repos."
+                        },
+                        {
+                            "Sol": [
+                                {
+                                    "nom": "Jet de Boue",
+                                    "puissance": 20,
+                                    "precision": 100,
+                                    "niveau": 1,
+                                    "effet": "baisse_prec_cible_1",
+                                    "description": "Envoie de la boue aux yeux pour réduire la Précision."
+                                },
+                                {
+                                    "nom": "Enlisement",
+                                    "puissance": 0,
+                                    "precision": 100,
+                                    "niveau": 5,
+                                    "effet": "baisse_vit_cible_1",
+                                    "description": "Rend le sol meuble pour ralentir l'adversaire."
+                                },
+                                {
+                                    "nom": "Sable Mouvant",
+                                    "puissance": 35,
+                                    "precision": 85,
+                                    "niveau": 10,
+                                    "effet": "piege_tour",
+                                    "description": "Emprisonne la cible dans un tourbillon de sable pendant 5 tours."
+                                },
+                                {
+                                    "nom": "Tunnelier",
+                                    "puissance": 60,
+                                    "precision": 100,
+                                    "niveau": 16,
+                                    "effet": "esquive_1_tour",
+                                    "description": "Se creuse un abri au premier tour et frappe au second."
+                                },
+                                {
+                                    "nom": "Piétinement",
+                                    "puissance": 65,
+                                    "precision": 100,
+                                    "niveau": 22,
+                                    "effet": "peur_30",
+                                    "description": "Écrase le sol violemment. Peut apeurer la cible."
+                                },
+                                {
+                                    "nom": "Onde Sismique",
+                                    "puissance": 75,
+                                    "precision": 100,
+                                    "niveau": 28,
+                                    "effet": "dommage",
+                                    "description": "Une secousse tellurique qui frappe tous les ennemis au sol."
+                                },
+                                {
+                                    "nom": "Rempart de Terre",
+                                    "puissance": 0,
+                                    "precision": 100,
+                                    "niveau": 34,
+                                    "effet": "boost_def_2",
+                                    "description": "Érige un mur de terre solide. Augmente beaucoup la Défense."
+                                },
+                                {
+                                    "nom": "Coup de Masse",
+                                    "puissance": 90,
+                                    "precision": 90,
+                                    "niveau": 40,
+                                    "effet": "dommage",
+                                    "description": "Frappe l'ennemi avec une puissance tellurique brute."
+                                },
+                                {
+                                    "nom": "Fissure Abyssale",
+                                    "puissance": 0,
+                                    "precision": 30,
+                                    "niveau": 46,
+                                    "effet": "ko_immediat",
+                                    "description": "Ouvre le sol sous l'ennemi. K.O. immédiat si l'attaque réussit."
+                                },
+                                {
+                                    "nom": "Séisme Majeur",
+                                    "puissance": 100,
+                                    "precision": 100,
+                                    "niveau": 52,
+                                    "effet": "dommage",
+                                    "description": "Un tremblement de terre dévastateur. Puissance maximale."
+                                },
+                                {
+                                    "nom": "Colère de Gaïa",
+                                    "puissance": 120,
+                                    "precision": 95,
+                                    "niveau": 58,
+                                    "effet": "baisse_def_1",
+                                    "description": "Le sol se soulève pour briser la défense de l'adversaire."
+                                },
+                                {
+                                    "nom": "Impact Tectonique",
+                                    "puissance": 150,
+                                    "precision": 90,
+                                    "niveau": 65,
+                                    "effet": "immobilisation_tour",
+                                    "description": "Une collision continentale. Demande un tour de repos."
+                                }
+                            ],
+                            "Spectre": [
+                                {
+                                    "nom": "Lueur Fatale",
+                                    "puissance": 30,
+                                    "precision": 100,
+                                    "niveau": 1,
+                                    "effet": "confusion_10",
+                                    "description": "Une petite flamme spectrale qui désoriente."
+                                },
+                                {
+                                    "nom": "Regard Noir",
+                                    "puissance": 0,
+                                    "precision": 100,
+                                    "niveau": 6,
+                                    "effet": "empeche_fuite",
+                                    "description": "Empêche l'adversaire de s'enfuir ou d'être rappelé."
+                                },
+                                {
+                                    "nom": "Ombre Portée",
+                                    "puissance": 40,
+                                    "precision": 100,
+                                    "niveau": 12,
+                                    "effet": "priorite_1",
+                                    "description": "Frappe depuis les ombres. Attaque toujours en premier."
+                                },
+                                {
+                                    "nom": "Malédiction",
+                                    "puissance": 0,
+                                    "precision": 100,
+                                    "niveau": 18,
+                                    "effet": "degats_maudits",
+                                    "description": "Sacrifie des PV pour infliger des dégâts à chaque tour à l'ennemi."
+                                },
+                                {
+                                    "nom": "Rayon Spectral",
+                                    "puissance": 60,
+                                    "precision": 100,
+                                    "niveau": 24,
+                                    "effet": "baisse_def_cible_1",
+                                    "description": "Un faisceau d'énergie d'outre-tombe qui ronge la défense."
+                                },
+                                {
+                                    "nom": "Hantise",
+                                    "puissance": 0,
+                                    "precision": 100,
+                                    "niveau": 30,
+                                    "effet": "sommeil_cauchemar",
+                                    "description": "Endort la cible et lui inflige des dégâts mentaux."
+                                },
+                                {
+                                    "nom": "Poing Ombrage",
+                                    "puissance": 75,
+                                    "precision": 100,
+                                    "niveau": 36,
+                                    "effet": "ignore_esquive",
+                                    "description": "Un coup de poing qui traverse l'espace. Ne rate jamais."
+                                },
+                                {
+                                    "nom": "Voleur d'Âme",
+                                    "puissance": 80,
+                                    "precision": 100,
+                                    "niveau": 42,
+                                    "effet": "vampirisme_50",
+                                    "description": "Aspire l'essence vitale. Soigne le lanceur."
+                                },
+                                {
+                                    "nom": "Feu Follet",
+                                    "puissance": 0,
+                                    "precision": 85,
+                                    "niveau": 48,
+                                    "effet": "brulure",
+                                    "description": "Invoque des flammes spectrales qui brûlent la cible."
+                                },
+                                {
+                                    "nom": "Tempête de Revenants",
+                                    "puissance": 95,
+                                    "precision": 100,
+                                    "niveau": 54,
+                                    "effet": "baisse_atq_10",
+                                    "description": "Une nuée de spectres qui glace le sang et baisse l'Attaque."
+                                },
+                                {
+                                    "nom": "Nuit d'Horreur",
+                                    "puissance": 110,
+                                    "precision": 80,
+                                    "niveau": 60,
+                                    "effet": "peur_30",
+                                    "description": "Une illusion terrifiante qui peut apeurer l'ennemi."
+                                },
+                                {
+                                    "nom": "Éclipse Totale",
+                                    "puissance": 130,
+                                    "precision": 95,
+                                    "niveau": 68,
+                                    "effet": "baisse_def_spe_2",
+                                    "description": "Plonge le terrain dans le noir absolu. Épuise le mana du lanceur."
+                                }
+                            ],
+                            "Ténèbres": [
+                                {
+                                    "nom": "Coup Bas",
+                                    "puissance": 40,
+                                    "precision": 100,
+                                    "niveau": 1,
+                                    "effet": "priorite_attaquant",
+                                    "description": "Frappe en premier si l'ennemi s'apprête à attaquer."
+                                },
+                                {
+                                    "nom": "Provocation",
+                                    "puissance": 0,
+                                    "precision": 100,
+                                    "niveau": 7,
+                                    "effet": "bloque_support",
+                                    "description": "Force l'ennemi à n'utiliser que des attaques offensives."
+                                },
+                                {
+                                    "nom": "Morsure Cruelle",
+                                    "puissance": 60,
+                                    "precision": 100,
+                                    "niveau": 13,
+                                    "effet": "peur_10",
+                                    "description": "Une morsure brutale faite pour intimider."
+                                },
+                                {
+                                    "nom": "Vol de Capacité",
+                                    "puissance": 0,
+                                    "precision": 100,
+                                    "niveau": 19,
+                                    "effet": "copie_boost",
+                                    "description": "Copie les augmentations de statistiques de l'adversaire."
+                                },
+                                {
+                                    "nom": "Tranche-Obscure",
+                                    "puissance": 70,
+                                    "precision": 100,
+                                    "niveau": 25,
+                                    "effet": "critique_haut",
+                                    "description": "Une lame d'ombre qui cherche les points vitaux."
+                                },
+                                {
+                                    "nom": "Sabotage",
+                                    "puissance": 65,
+                                    "precision": 100,
+                                    "niveau": 31,
+                                    "effet": "retrait_objet",
+                                    "description": "Détruit ou vole l'objet tenu par l'adversaire."
+                                },
+                                {
+                                    "nom": "Machination",
+                                    "puissance": 0,
+                                    "precision": 100,
+                                    "niveau": 37,
+                                    "effet": "boost_atq_spe_2",
+                                    "description": "Réfléchit à un plan sournois pour doubler son Attaque Spéciale."
+                                },
+                                {
+                                    "nom": "Aura de Terreur",
+                                    "puissance": 0,
+                                    "precision": 100,
+                                    "niveau": 43,
+                                    "effet": "baisse_def_spe_2",
+                                    "description": "Dégage une énergie maléfique qui brise la résistance magique."
+                                },
+                                {
+                                    "nom": "Pulsation Sombre",
+                                    "puissance": 80,
+                                    "precision": 100,
+                                    "niveau": 49,
+                                    "effet": "peur_20",
+                                    "description": "Une onde de choc de pensées négatives."
+                                },
+                                {
+                                    "nom": "Vendetta",
+                                    "puissance": 60,
+                                    "precision": 100,
+                                    "niveau": 55,
+                                    "effet": "double_si_frappe",
+                                    "description": "Puissance doublée si le lanceur a déjà reçu des dégâts ce tour."
+                                },
+                                {
+                                    "nom": "Exécution",
+                                    "puissance": 95,
+                                    "precision": 100,
+                                    "niveau": 62,
+                                    "effet": "dommage",
+                                    "description": "Une frappe impitoyable qui ne laisse aucun répit."
+                                },
+                                {
+                                    "nom": "Chaos Primordial",
+                                    "puissance": 120,
+                                    "precision": 90,
+                                    "niveau": 70,
+                                    "effet": "baisse_toutes_stats_cible_1",
+                                    "description": "Invoque le vide pour affaiblir totalement l'adversaire."
+                                }
+                            ],
+                            "Vol": [
+                                {
+                                    "nom": "Battement d'Ailes",
+                                    "puissance": 40,
+                                    "precision": 100,
+                                    "niveau": 1,
+                                    "effet": "dommage",
+                                    "description": "Frappe l'ennemi avec des ailes vigoureuses."
+                                },
+                                {
+                                    "nom": "Tornade Légère",
+                                    "puissance": 40,
+                                    "precision": 100,
+                                    "niveau": 5,
+                                    "effet": "dommage",
+                                    "description": "Crée un petit tourbillon d'air."
+                                },
+                                {
+                                    "nom": "Bourrasque",
+                                    "puissance": 0,
+                                    "precision": 100,
+                                    "niveau": 10,
+                                    "effet": "echange_ennemi",
+                                    "description": "Force l'adversaire à changer de monstre (si possible)."
+                                },
+                                {
+                                    "nom": "Plongée Aérienne",
+                                    "puissance": 60,
+                                    "precision": 95,
+                                    "niveau": 16,
+                                    "effet": "esquive_1_tour",
+                                    "description": "S'envole haut dans le ciel et fond sur sa proie au tour suivant."
+                                },
+                                {
+                                    "nom": "Hâte Aérienne",
+                                    "puissance": 0,
+                                    "precision": 100,
+                                    "niveau": 22,
+                                    "effet": "boost_vit_2",
+                                    "description": "Lisse ses plumes pour augmenter grandement sa Vitesse."
+                                },
+                                {
+                                    "nom": "Rafale Tranchante",
+                                    "puissance": 75,
+                                    "precision": 95,
+                                    "niveau": 28,
+                                    "effet": "critique_haut",
+                                    "description": "Le vent devient tranchant comme des lames."
+                                },
+                                {
+                                    "nom": "Atterrissage",
+                                    "puissance": 0,
+                                    "precision": 100,
+                                    "niveau": 34,
+                                    "effet": "soin_50",
+                                    "description": "Se pose au sol pour restaurer 50% de ses PV totaux."
+                                },
+                                {
+                                    "nom": "Lame d'Air",
+                                    "puissance": 75,
+                                    "precision": 95,
+                                    "niveau": 40,
+                                    "effet": "peur_30",
+                                    "description": "Une faux d'air compressé qui peut apeurer l'ennemi."
+                                },
+                                {
+                                    "nom": "Bec d'Acier",
+                                    "puissance": 80,
+                                    "precision": 100,
+                                    "niveau": 46,
+                                    "effet": "dommage",
+                                    "description": "Un coup de bec perforant d'une grande précision."
+                                },
+                                {
+                                    "nom": "Tempête de Sable",
+                                    "puissance": 100,
+                                    "precision": 80,
+                                    "niveau": 52,
+                                    "effet": "confusion_10",
+                                    "description": "Un ouragan puissant qui soulève tout sur son passage."
+                                },
+                                {
+                                    "nom": "Cyclone Dévastateur",
+                                    "puissance": 110,
+                                    "precision": 70,
+                                    "niveau": 58,
+                                    "effet": "dommage",
+                                    "description": "Une attaque de vent massive. Peu précise mais destructrice."
+                                },
+                                {
+                                    "nom": "Vol Supersonique",
+                                    "puissance": 120,
+                                    "precision": 100,
+                                    "niveau": 65,
+                                    "effet": "recul_33",
+                                    "description": "Une charge à la vitesse du son qui blesse aussi le lanceur."
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
